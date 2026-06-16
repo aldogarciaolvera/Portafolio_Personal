@@ -27,8 +27,7 @@ Este es mi portafolio profesional, diseñado con una estética moderna de **Glas
 
 Si te gusta mi trabajo o tienes una propuesta interesante, ¡no dudes en contactarme!
 
-- **LinkedIn**: [Aldo García](https://www.linkedin.com/in/aldo-garc%C3%ADa-4bb0011a5)
-- **GitHub**: [@wall213](https://github.com/wall213)
+- **LinkedIn**: [Aldo García](www.linkedin.com/in/aldo-garcia-olvera-871128417)
+- **GitHub**: [@aldogarciaolvera](https://github.com/aldogarciaolvera)
 
----
 Desarrollado con ❤️ por **Aldo García**

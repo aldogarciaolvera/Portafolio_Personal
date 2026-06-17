@@ -5,7 +5,7 @@ const SelectedWorks = () => {
     {
       id: 1,
       title: 'Portal de Pagos HDI',
-      description: 'Un portal para realizar pagos de polizas hecho en React y C#/.NET como Backend, tambien interactue con base de datos.',
+      description: 'Un portal para realizar pagos de polizas hecho en React y C#/.NET como Backend, al igual que la integracion con la base de datos.',
       tags: ['REACT', '.NET', 'SQL'],
       image: '/PortalHDI.png',
       link: 'https://portalpagos.hdi.com.mx/identificaPoliza'
@@ -24,6 +24,14 @@ const SelectedWorks = () => {
       description: 'Aplicacion para gestionar gastos personales con funciones de autenticación, gastos, ingresos, y almacenamiento de datos, categoriasy manipulacion de datos',
       tags: ['REACT NATIVE', 'SUPABASE', 'JAVASCRIPT'],
       image: '/appgastos.png',
+      link: ''
+    },
+    {
+      id: 4,
+      title: 'Evaluacion Tecnica',
+      description: 'Una aplicacion para evaluar tecnicamente a candidatos a un puesto de trabajo, con funciones de autenticacion, evaluacion, y almacenamiento de datos.',
+      tags: ['REACT', 'PYTHON', 'POSTGRESQL'],
+      image: '/',
       link: ''
     }
   ];

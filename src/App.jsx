@@ -5,7 +5,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import SelectedWorks from './components/SelectedWorks';
 import TechnicalArsenal from './components/TechnicalArsenal';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <About />
           <SelectedWorks />
           <TechnicalArsenal />
-          <Contact />
+          {/* <Contact /> */}
         </main>
         <Footer />
       </MainContent>

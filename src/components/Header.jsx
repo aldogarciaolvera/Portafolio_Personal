@@ -12,13 +12,13 @@ const Header = () => {
       behavior: 'smooth'
     });
   };
+  
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const handleNavClick = (e, targetId) => {
+  const handleNavClick = () => {
     if (isMenuOpen) setIsMenuOpen(false);
-    // Intersection observer handles activeSection, but we can also set it here for immediate feedback if needed
   };
 
   useEffect(() => {
@@ -66,7 +66,7 @@ const Header = () => {
           <li><NavLink href="#about" $active={activeSection === 'about'} className="label-caps">SOBRE MÍ</NavLink></li>
           <li><NavLink href="#projects" $active={activeSection === 'projects'} className="label-caps">PROJECTOS</NavLink></li>
           <li><NavLink href="#stack" $active={activeSection === 'stack'} className="label-caps">STACK</NavLink></li>
-          <li><NavLink href="#contact" $active={activeSection === 'contact'} className="label-caps">CONTACTO</NavLink></li>
+          {/* <li><NavLink href="#contact" $active={activeSection === 'contact'} className="label-caps">CONTACTO</NavLink></li> */}
         </NavList>
       </Nav>
 
@@ -82,7 +82,7 @@ const Header = () => {
             <li><MobileNavLink href="#about" onClick={(e) => handleNavClick(e, 'about')} $active={activeSection === 'about'} className="label-caps">SOBRE MÍ</MobileNavLink></li>
             <li><MobileNavLink href="#projects" onClick={(e) => handleNavClick(e, 'projects')} $active={activeSection === 'projects'} className="label-caps">PROJECTOS</MobileNavLink></li>
             <li><MobileNavLink href="#stack" onClick={(e) => handleNavClick(e, 'stack')} $active={activeSection === 'stack'} className="label-caps">STACK</MobileNavLink></li>
-            <li><MobileNavLink href="#contact" onClick={(e) => handleNavClick(e, 'contact')} $active={activeSection === 'contact'} className="label-caps">CONTACTO</MobileNavLink></li>
+            {/* <li><MobileNavLink href="#contact" onClick={(e) => handleNavClick(e, 'contact')} $active={activeSection === 'contact'} className="label-caps">CONTACTO</MobileNavLink></li> */}
           </MobileNavList>
         </MobileNav>
       </MobileOverlay>
@@ -106,14 +106,6 @@ const IconHexagonA = () => (
     <polygon className="shadow" points="50,5 90,25 90,75 50,95 10,75 10,25" />
     <polygon className="front" points="50,5 90,25 90,75 50,95 10,75 10,25" />
     <text x="50" y="62" fontSize="35" fontWeight="bold" textAnchor="middle" fill="currentColor" stroke="none">A</text>
-  </svg>
-);
-
-const IconMenu = () => (
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <line x1="3" y1="12" x2="21" y2="12"></line>
-    <line x1="3" y1="6" x2="21" y2="6"></line>
-    <line x1="3" y1="18" x2="21" y2="18"></line>
   </svg>
 );
 

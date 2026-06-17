@@ -11,7 +11,7 @@ const Sidebar = () => {
           <a href="https://github.com/aldogarciaolvera" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <IconGithub />
           </a>
-          <a href="www.linkedin.com/in/aldo-garcia-olvera-871128417" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/aldo-garcia-olvera-871128417" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <IconLinkedIn />
           </a>
         </SocialLinks>

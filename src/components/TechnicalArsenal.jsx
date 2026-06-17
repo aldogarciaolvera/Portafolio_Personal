@@ -5,7 +5,7 @@ const TechnicalArsenal = () => {
     {
       title: 'FRONTEND',
       icon: <IconFrontend />,
-      items: ['React ', 'Angular', 'Styled Components']
+      items: ['React ', 'Angular', 'Astro']
     },
     {
       title: 'BACKEND',
@@ -25,7 +25,7 @@ const TechnicalArsenal = () => {
     {
       title: 'DevOps',
       icon: <IconContainer />,
-      items: ['Git', 'Docker', 'Kubernetes']
+      items: ['Git (Versionamiento)', 'Docker', 'Kubernetes']
     },
     {
       title: 'Cloud',
@@ -35,12 +35,12 @@ const TechnicalArsenal = () => {
     {
       title: 'Deployment Personal',
       icon: <IconGlobe />,
-      items: ['Manejo de Dominio', 'Configuracion de Servidor', 'Dockploy(Alternativa a Vercel)']
+      items: ['Manejo de Dominio', 'Configuracion de Servidor', 'Dockploy (Alternativa a Vercel)', 'SCRUM (Metodologia Agil)']
     },
     {
       title: 'Mantenimiento',
       icon: <IconTool />,
-      items: ['Sistemas Operativos', 'Actualizacion de Software', 'Actualizacion de Hardware']
+      items: ['Sistemas Operativos', 'Actualizacion de Software', 'Actualizacion de Hardware', 'Documentacion']
     }
   ];
 

@@ -12,11 +12,11 @@ const SelectedWorks = () => {
     },
     {
       id: 2,
-      title: 'PianoTrainer',
+      title: 'Piano_Trainer',
       description: 'Una aplicacion para practicar piano con el teclado de la computadora dando la sensacion de un piano real.',
       tags: ['REACT', 'TYPESCRIPT', 'TAILWIND'],
       image: '/PianoTrainer.png',
-      link: 'https://pianotrainer.atomsystems.org/'
+      link: 'https://piano_trainer.atomsystems.org/'
     },
     {
       id: 3,
@@ -28,11 +28,19 @@ const SelectedWorks = () => {
     },
     {
       id: 4,
-      title: 'Evaluacion Tecnica',
+      title: 'Evaluacion Tecnica Castores',
       description: 'Una aplicacion para evaluar tecnicamente a candidatos a un puesto de trabajo, con funciones de autenticacion, evaluacion, y almacenamiento de datos.',
-      tags: ['REACT', 'PYTHON', 'POSTGRESQL'],
-      image: '/',
-      link: ''
+      tags: ['REACT', 'PYTHON', 'MySQL'],
+      image: '/Evaluacion_Castores.png',
+      link: 'https://evaluacion_tecnica_castores.atomsystems.org/'
+    },
+    {
+      id: 5,
+      title: ' API Evaluacion Tecnica Castores',
+      description: 'Una Api para el desarrollo de la evaluacion tecnica de castores, con funciones de autenticacion, evaluacion, y almacenamiento de datos. ',
+      tags: ['PYTHON', 'FastAPI', 'Scalar (Alt Swagger)'],
+      image: '/Evaluacion_Castores_API.png',
+      link: 'https://evaluacion_tecnica_castores_api.atomsystems.org/'
     }
   ];
 

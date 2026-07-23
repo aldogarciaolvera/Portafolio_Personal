@@ -15,7 +15,7 @@ const TechnicalArsenal = () => {
     {
       title: 'BASE DE DATOS',
       icon: <IconDatabase />,
-      items: ['PostgreSQL', 'SQL Server', 'Supabase']
+      items: ['PostgreSQL', 'SQL Server', 'MySQL', 'Supabase']
     },
     {
       title: 'MOBILE',

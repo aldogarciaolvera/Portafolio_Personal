@@ -30,7 +30,7 @@ const About = () => {
         </AboutContent>
         
         <AboutImage className="glass-panel">
-          <img src="/1.jpg" alt="Aldo Garcia" />
+          <img src="/Perfil.jpg" alt="Aldo Garcia" />
         </AboutImage>
       </AboutGrid>
     </AboutSection>

@@ -20,14 +20,6 @@ const SelectedWorks = () => {
     },
     {
       id: 3,
-      title: 'App_Gastos',
-      description: 'Aplicacion para gestionar gastos personales con funciones de autenticación, gastos, ingresos, y almacenamiento de datos, categoriasy manipulacion de datos',
-      tags: ['REACT NATIVE', 'SUPABASE', 'JAVASCRIPT'],
-      image: '/appgastos.png',
-      link: ''
-    },
-    {
-      id: 4,
       title: 'Evaluacion Tecnica Castores',
       description: 'Una aplicacion para evaluar tecnicamente a candidatos a un puesto de trabajo, con funciones de autenticacion, evaluacion, y almacenamiento de datos.',
       tags: ['REACT', 'PYTHON', 'MySQL'],
@@ -35,12 +27,28 @@ const SelectedWorks = () => {
       link: 'https://evaluacion-tecnica-castores.atomsystems.org/'
     },
     {
-      id: 5,
-      title: ' API Evaluacion Tecnica Castores',
+      id: 4,
+      title: 'API Evaluacion Tecnica Castores',
       description: 'Una Api para el desarrollo de la evaluacion tecnica de castores, con funciones de autenticacion, evaluacion, y almacenamiento de datos. ',
       tags: ['PYTHON', 'FastAPI', 'Scalar (Alt Swagger)'],
       image: '/Evaluacion_Castores_API.png',
       link: 'https://evaluacion-tecnica-castores-api.atomsystems.org/'
+    },
+    {
+      id: 5,
+      title: 'Backup Manager Server',
+      description: 'Una aplicacion para gestionar copias de seguridad de servidores, almacenamiento de datos y restauracion de los mismos. ',
+      tags: ['SHELL', 'Linux'],
+      image: '/Terminal.jpg',
+      link: 'https://github.com/aldogarciaolvera/Backup_Manager_Server'
+    },
+    {
+      id: 6,
+      title: 'Tools Hooks',
+      description: 'Esta es una herramienta para instalar hooks para git de manera global y usar comandos de manera mas rapida y efectiva para llevar un versionamiento de codigo. ',
+      tags: ['SHELL', 'Linux/Windows', 'Git', 'Powershell'],
+      image: '/Terminal.jpg',
+      link: 'https://github.com/aldogarciaolvera/Tools-hooks'
     }
   ];
 

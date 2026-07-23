@@ -58,7 +58,7 @@ const Header = () => {
       </MenuButton>
 
       <Logo>
-        <a href="#" onClick={scrollToTop}>Software Developer</a>
+        <a href="#" onClick={scrollToTop}>Software Engineer</a>
       </Logo>
 
       <Nav className="desktop-only">

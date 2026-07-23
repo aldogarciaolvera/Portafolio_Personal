@@ -5,9 +5,9 @@ const Hero = () => {
     <HeroSection className="section container">
       <HeroContent>
         <HeroLabel className="label-caps">ALDO GARCIA</HeroLabel>
-        <HeroTitle>DESARROLLADOR FULLSTACK</HeroTitle>
+        <HeroTitle>Software Engineer especializado en Backend, Infraestructura y Automatización.</HeroTitle>
         <HeroSubtitle>
-          De la idea a la solución: simple, funcional y escalable.
+          Desarrollo APIs escalables, automatizo procesos y despliego aplicaciones en servidores Linux utilizando Docker, PostgreSQL y Cloudflare.
         </HeroSubtitle>
       </HeroContent>
     </HeroSection>

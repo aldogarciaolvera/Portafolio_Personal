@@ -30,7 +30,7 @@ const TechnicalArsenal = () => {
     {
       title: 'Cloud',
       icon: <IconCloud />,
-      items: ['CI/CD', 'Azure', 'AWS']
+      items: ['CI/CD', 'Azure', 'AWS', 'S3(MINIO Alternativa Local)']
     },
     {
       title: 'Deployment Personal',

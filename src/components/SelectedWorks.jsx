@@ -36,6 +36,30 @@ const SelectedWorks = () => {
     },
     {
       id: 5,
+      title: 'Barbacha LandingPage',
+      description: 'Una landing page para un local de barbacoa, para mostrar sus datos y ubicacion del lugar asi como el menu.',
+      tags: ['Astro', 'CSS', ''],
+      image: '/Barbacha.png',
+      link: 'https://barbacha.atomsystems.org/'
+    },
+    {
+      id: 6,
+      title: 'Nexodus - Aplicacion Gestion Personal',
+      description: 'Una aplicacion para la gestion de metas personales, con funciones de autenticacion, seguimiento, y almacenamiento de datos.',
+      tags: ['ReactNative', 'EXPO', 'Zustand'],
+      image: '/Nexodus.png',
+      link: 'https://github.com/aldogarciaolvera/Nexodus-Front'
+    },
+    {
+      id: 7,
+      title: 'API Nexodus',
+      description: 'Una Api para el desarrollo de la aplicacion de gestion de metas personales Nexodus, con funciones de autenticacion, seguimiento, y almacenamiento de datos.',
+      tags: ['C#', '.Net 10', 'Scalar (Alt Swagger)', 'PostgreSQL'],
+      image: '/API-Nexodus.png',
+      link: 'https://github.com/aldogarciaolvera/Nexodus-Back'
+    },
+    {
+      id: 8,
       title: 'Backup Manager Server',
       description: 'Una aplicacion para gestionar copias de seguridad de servidores, almacenamiento de datos y restauracion de los mismos. ',
       tags: ['SHELL', 'Linux'],
@@ -43,7 +67,7 @@ const SelectedWorks = () => {
       link: 'https://github.com/aldogarciaolvera/Backup_Manager_Server'
     },
     {
-      id: 6,
+      id: 9,
       title: 'Tools Hooks',
       description: 'Esta es una herramienta para instalar hooks para git de manera global y usar comandos de manera mas rapida y efectiva para llevar un versionamiento de codigo. ',
       tags: ['SHELL', 'Linux/Windows', 'Git', 'Powershell'],
